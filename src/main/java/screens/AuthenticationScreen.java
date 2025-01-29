@@ -29,7 +29,7 @@ public class AuthenticationScreen extends BaseScreen{
     }
 
     public void clickBtnRegistration(){
-        clickWait(btnRegistration,3);
+        clickWait(btnRegistration,4);
     }
 
     public void clickBtnLogin(){

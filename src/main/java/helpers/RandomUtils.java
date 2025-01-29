@@ -27,7 +27,7 @@ public class RandomUtils {
 
 
 
- /*/
+
     public static String generatePhone(int length) {
         String characters = "0123456789";
         char[] randomString = new char[length];
@@ -40,5 +40,5 @@ public class RandomUtils {
         return new String(randomString);
     }
 
- */
+
 }
