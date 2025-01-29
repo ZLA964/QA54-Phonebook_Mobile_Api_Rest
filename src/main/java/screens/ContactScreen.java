@@ -20,7 +20,7 @@ public class ContactScreen extends BaseScreen{
         return textInElementPresent(headerContactScreen, "Contact list", 5);
     }
 
-    public void cliclBtnAddNewContact(){
+    public void clickBtnAddNewContact(){
         clickWait(btnAddNewContact,5);
     }
 

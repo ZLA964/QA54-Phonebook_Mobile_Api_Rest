@@ -26,7 +26,7 @@ public class AddContactTests extends AppiumConfig {
         authenticationScreen.typeAuthentication(user);
         authenticationScreen.clickBtnLogin();
         contactScreen = new ContactScreen(driver);
-        contactScreen.cliclBtnAddNewContact();
+        contactScreen.clickBtnAddNewContact();
         addNewContactScreen = new AddNewContactScreen(driver);
     }
 

@@ -20,9 +20,10 @@ public class AuthenticationScreen extends BaseScreen{
     AndroidElement btnRegistration;
     @FindBy(id = "com.sheygam.contactapp:id/loginBtn")
     AndroidElement btnLogin;
+/*/
     @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.TextView")
     AndroidElement textAuthentication;
-
+*/
     public void typeAuthentication(UserDtoLombok user){
         inputEmail.sendKeys(user.getUsername());
         inputPassword.sendKeys(user.getPassword());

@@ -43,7 +43,7 @@ public class RegistrationTests extends AppiumConfig {
     }
 
     @Test
-    public void registrationNegativeTest_WrongOassword(){
+    public void registrationNegativeTest_WrongPassword(){
         UserDtoLombok user = UserDtoLombok.builder()
                 .username(generateEmail(10))
                 .password("Poiuyt123")

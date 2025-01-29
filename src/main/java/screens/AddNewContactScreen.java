@@ -14,7 +14,7 @@ public class AddNewContactScreen extends BaseScreen{
     @FindBy(id = "com.sheygam.contactapp:id/inputName")
     AndroidElement inputName;
     @FindBy(id = "com.sheygam.contactapp:id/inputLastName")
-    AndroidElement inpuLastName;
+    AndroidElement inputLastName;
     @FindBy(id = "com.sheygam.contactapp:id/inputEmail")
     AndroidElement inputEmail;
     @FindBy(id = "com.sheygam.contactapp:id/inputPhone")
@@ -29,7 +29,7 @@ public class AddNewContactScreen extends BaseScreen{
 
     public void typeContactForm(ContactDtoLombok contact){
         inputName.sendKeys(contact.getName());
-        inpuLastName.sendKeys(contact.getLastName());
+        inputLastName.sendKeys(contact.getLastName());
         inputEmail.sendKeys(contact.getEmail());
         inputPhone.sendKeys(contact.getPhone());
         inputAddress.sendKeys(contact.getAddress());
