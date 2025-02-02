@@ -30,7 +30,7 @@ public class AddContactTests extends AppiumConfig {
         addNewContactScreen = new AddNewContactScreen(driver);
     }
 
-    @Test
+    @Test(invocationCount = 3)
     public void addContactPositiveTest(){
         ContactDtoLombok contact = ContactDtoLombok.builder()
                 .name("@@@"+generateString(4))
